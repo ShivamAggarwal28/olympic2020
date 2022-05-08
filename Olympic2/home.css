@@ -1,0 +1,118 @@
+
+section:not(.hero-section) {
+  padding: 16em 10em;
+  position: relative;
+}
+section:not(.hero-section) .section-title {
+  position: absolute;
+  text-transform: uppercase;
+  top: 2.4em;
+  font-size: 2.8em;
+}
+section:not(.hero-section) .section-content {
+  margin-right: 20em;
+  position: absolute;
+  top: 14em;
+  font-size: 1em;
+}
+section:not(.hero-section) .section-cta {
+  position: absolute;
+  top: 21.5em;
+}
+
+.cta {
+  padding: 1em 1.5em;
+  border-radius: 5em;
+  font-weight: bold;
+  box-shadow: 0px 0px 0px black;
+  transition: box-shadow 500ms;
+}
+
+.hero-section {
+  margin: 5em 0;
+  padding: 4em 10em;
+}
+.hero-section .container {
+  margin-top: -2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.hero-section .col-left .hero-motto {
+  font-size: 1em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+.hero-section .col-left .hero-title {
+  font-weight: bold;
+  font-size: 3.3em;
+  margin-bottom: 1.1em;
+}
+.hero-section .col-left .hero-cta {
+  color: white;
+  background-color: var(--primary-dark-blue);
+}
+.hero-section .col-left .hero-cta:hover {
+  box-shadow: 8px 6px 20px black;
+}
+.hero-section .col-right {
+  margin-right: -8em;
+}
+
+.about-section {
+  color: white;
+  background-color: var(--primary-dark-blue);
+}
+.about-section a {
+  color: white;
+}
+.about-section .about-cta {
+  background-color: #fab53d;
+}
+.about-section .about-cta:hover {
+  box-shadow: 0px 0px 25px #fdaf28;
+}
+
+.achievements-section {
+  color: white;
+  background-color: black;
+}
+.achievements-section a {
+  color: white;
+}
+.achievements-section .achievements-cta {
+  background-color: #ed334e;
+}
+.achievements-section .achievements-cta:hover {
+  box-shadow: 0px 0px 45px #ed334e;
+}
+
+.covid-section {
+  color: white;
+  background-color: #0d72df;
+}
+.covid-section a {
+  color: white;
+}
+.covid-section .covid-cta {
+  box-shadow: 0px 0px 0px #39bb51;
+  background-color: #39bb51;
+}
+.covid-section .covid-cta:hover {
+  box-shadow: 0px 0px 25px #00ff2f;
+}
+
+.medalists-section {
+  color: white;
+  background-color: #fdad24;
+}
+.medalists-section a {
+  color: white;
+}
+.medalists-section .medalists-cta {
+  box-shadow: 0px 0px 0px #b76bff;
+  background-color: #8a2be2;
+}
+.medalists-section .medalists-cta:hover {
+  box-shadow: 0px 0px 35px #b76bff;
+}
